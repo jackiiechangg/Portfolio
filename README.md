@@ -1,6 +1,6 @@
-# Portfolio — jackiiechangg
+# Data Science and Analytics Projects
 
-A personal portfolio website showcasing projects, skills, and contact information.
+Welcome to my Data Science/ Analytics Project Repository! This repository contains a collection of my data science and data analytics project, showcasing my various skills and experience in the field. Each project targets different aspects of data analysis (dashboards), machine learning (Random Forest/ Logisctic Regression/ k-NN, and vizualizations. 
 
 ## Demo
 Add a link to your live site (if you have one):  
