@@ -2,10 +2,6 @@
 
 Welcome to my Data Science/ Analytics Project Repository! This repository contains a collection of my data science and data analytics project, showcasing my various skills and experience in the field. Each project targets different aspects of data analysis (dashboards), machine learning (Random Forest/ Logisctic Regression/ k-NN, and vizualizations. 
 
-## Demo
-Add a link to your live site (if you have one):  
-https://your-site.example.com
-
 ## About
 This repository contains the source for my portfolio website. It includes project pages, a home page, and contact information to help potential collaborators and employers learn about my work.
 
