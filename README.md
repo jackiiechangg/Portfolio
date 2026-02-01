@@ -6,11 +6,8 @@ Welcome to my Data Science/ Analytics Project Repository! This repository contai
 My name is Jackie and I'm a 22 year old data analyst based in Boston ⭐️ I recently graduated from Boston University with a degree in Business Analytics and currently work for Liberty Mutual, where I've had the opportunity to analyze dashboards, build dashboard, create recommendations for stakholders, and manipulate modeling pipeline. I'm passionate about using data to solve real world problems in hopes to help people make better decisions! 
 
 ## Projects 
-- Project gallery with descriptions, tech stack, and links
-- About / bio section
-- Contact form or email link
-- Responsive layout for desktop and mobile
-- (Optional) Blog or case studies
+- Predicting Customer Churn Factors
+- Healthcare Utilization & Provider Dashboard   
 
 ## Contact
 - GitHub: [jackiiechangg](https://github.com/jackiiechangg)
