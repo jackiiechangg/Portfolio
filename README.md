@@ -7,7 +7,10 @@ My name is Jackie and I'm a 22 year old data analyst based in Boston ⭐️ I re
 
 ## Projects 
 - Predicting Customer Churn Factors
-- Healthcare Utilization & Provider Dashboard   
+- Healthcare Utilization & Provider Dashboard
+- Predicting Effects of Employee's Working Environment on Mental Health (group)
+
+   
 
 ## Contact
 - GitHub: [jackiiechangg](https://github.com/jackiiechangg)
