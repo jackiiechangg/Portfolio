@@ -14,8 +14,9 @@ Applied a stratified train/test split to preserve churn distribution
 Standardized numeric features
 Encoded categorical variables 
 
-## 3. Categories
-Features
+## 3. 
+#### Categories / Features L
+
 Customer Profile
 Age, gender, location, tenure, contract type
 Product Usage
@@ -30,7 +31,7 @@ Tickets, resolution time, CSAT, complaints
 After preprocessing, the final dataset used for the project consisted of 7,955 observations with 32 features. 
 
 ## 4. Methodology
-# a. Logistic Regression
+### a. Logistic Regression
 Logistic regression was used as a baseline model given the binary target variable and its coefficient-based interpretability. Coefficient analysis revealed the strongest drivers of churn: 
 
 
@@ -64,7 +65,7 @@ Recall: 0.019
 F1-score: 0.035
 ROC-AUC: 0.716
 
-# b. Random Forest 
+### b. Random Forest 
 After running the regression, I decided to run a random forest model to capture any potential nonlinear relationships and feature interactions that logistic regression might miss. The model achieved an accuracy of 89.8% and a ROC-AUC of 0.712, which is similar to the logistic regression model. While the Random Forest did not improve predictive performance, it confirms that the relationships between the predictors and churn are largely linear in the dataset. 
 
 ## 5. Conclusion 
