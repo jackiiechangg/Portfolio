@@ -10,7 +10,6 @@ Healthcare organizations manage complex workloads across providers and departmen
 
 **How can hospital workload and utilization patterns be monitored to support data-driven operational decisions?**
 
----
 
 ### Data & Metrics
 - Encounter-level healthcare data
@@ -20,7 +19,6 @@ Healthcare organizations manage complex workloads across providers and departmen
   - Provider workload
   - Utilization patterns by facility and service type
 
----
 
 ### Methods
 - Built a multi-page **Power BI dashboard** with:
@@ -29,21 +27,18 @@ Healthcare organizations manage complex workloads across providers and departmen
   - Custom **DAX measures** to summarize utilization and workload metrics
 - Designed views to support both high-level monitoring and detailed operational review
 
----
 
 ### Results & Insights
 - Enabled stakeholders to quickly assess hospital workload trends
 - Improved visibility into provider utilization and patient flow
 - Supported identification of high-demand areas and potential resource constraints
 
----
 
 ### Tools & Technologies
 - Power BI  
 - DAX  
 - SQL (data preparation)
 
----
 
 ### Dashboard Preview
 *(Screenshots included below)*
