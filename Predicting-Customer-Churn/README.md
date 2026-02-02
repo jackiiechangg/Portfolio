@@ -1,3 +1,12 @@
+#### Predicting Customer Churn Factors Analysis 
+### Tools & Technologies
+- Python  
+- pandas  
+- scikit-learn  
+- Logistic Regression  
+- Random Forest  
+- ROC-AUC and classification metrics
+  
 ## 1. Problem Statement
 
 Customer retention is a key driver of sustainable growth, yet many organizations make churn-related decisions without clear insights into the factors driving customer attrition. This lack of visibility makes it difficult to identify which customer behaviors and operational signals should be prioritized for effective retention strategies. Given that acquiring new customers typically costs 5x more than retaining existing ones, understanding how to engage current customers is critical in any industry or organization.
