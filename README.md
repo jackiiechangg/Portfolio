@@ -5,7 +5,7 @@ Welcome to my Data Science & Analytics Project Repository! This repository conta
 ## Projects 
 - Predicting Customer Churn Factors
 - Healthcare Utilization & Provider Dashboard
-- Predicting Effects of Employee's Working Environment on Mental Health (group)
+- Predicting Stress Levels from Employee Factors (group project)
 
 
 ## Contact
