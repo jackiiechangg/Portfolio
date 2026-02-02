@@ -1,5 +1,5 @@
 # Predictive Modeling: Effects of Work Productivity & Lifestyle Habits on Employee Mental Health
-#### This is a group project from a Machine Learning class I took in 2024!
+#### Disclaimer: This is a group project from a Machine Learning class I took in 2024!
 
 ### Tools & Techniques
 - Python
