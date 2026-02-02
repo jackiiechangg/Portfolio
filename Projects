@@ -1,1 +1,4 @@
+git rm -r "Predicting Customer Churn"
+git commit -m "Remove empty Predicting Customer Churn folder"
+git push
 
