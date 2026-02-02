@@ -1,14 +1,26 @@
-# Jacqueline's Portfolio ⭐️
+# Jacqueline's Portfolio ⭐
 
-Welcome to my Data Science & Analytics Project Repository! I’m passionate about using data to help others understand their surrounding environment, and this repository contains a collection of my data science and data analytics project showcasing my various skills and experience in the field. Each project targets different aspects of data analysis (dashboards), machine learning (Random Forest/ Logisctic Regression/ k-NN, and vizualizations. 
+Welcome to my Data Science & Analytics Project Repository! I’m passionate about using data to help others understand their surrounding environment, and this repository contains a collection of my data science and data analytics projects showcasing my skills and experience across dashboards, machine learning, and visualization. Each project targets a different aspect of the analytics workflow, from exploratory analysis and predictive modeling to insight communication.
 
-## Projects 
-- Predicting Customer Churn Factors
-- Healthcare Utilization & Provider Dashboard
-- Predicting Stress Levels from Employee Factors (group project)
+## Projects
 
+### Predicting Customer Churn Factors
+- **Question:** Which customer behaviors and operational factors most strongly drive churn?  
+- **Methods:** Classification modeling (Logistic Regression, Random Forest) evaluated using accuracy and ROC-AUC.  
+- **Results:** Achieved **~89.6% accuracy (ROC-AUC 0.716)**, identifying payment failures, satisfaction, tenure, and engagement as key churn drivers to inform retention strategies.
+
+### Healthcare Utilization & Provider Dashboard
+- **Question:** How can hospital workload and utilization patterns be monitored to support operational decision-making?  
+- **Methods:** Power BI dashboard built on encounter-level healthcare data with custom DAX measures and interactive filters.  
+- **Results:** Enabled clear visibility into admissions, length of stay, and provider workload patterns for stakeholder review.
+
+### Predicting Stress Levels from Employee Factors (Group Project)
+- **Question:** Which workplace and lifestyle factors have the greatest impact on employee stress levels?  
+- **Methods:** Supervised classification models (k-NN, Decision Trees, Logistic Regression, Neural Networks) with preprocessing and permutation feature importance.  
+- **Results:** Final k-NN model achieved **55.5% accuracy**, a **~5% improvement over baseline**, identifying experience level, industry, and remote work support as key stress drivers.
 
 ## Contact
 - GitHub: [jackiiechangg](https://github.com/jackiiechangg)
 - Email: jacquelinechang2025@gmail.com
-- LinkedIn: www.linkedin.com/in/jacquelinechangg/
+- LinkedIn: https://www.linkedin.com/in/jacquelinechangg/
+
