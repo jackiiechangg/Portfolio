@@ -1,5 +1,4 @@
 # Predictive Modeling: Effects of Work Productivity & Lifestyle Habits on Employee Mental Health
-#### Disclaimer: This is a group project from a Machine Learning class I took in 2024!
 
 ### Tools & Techniques
 - Python
@@ -14,7 +13,6 @@ Work-related stress has become increasingly prevalent as jobs grow more demandin
 This project addresses the question:  
 **Which work environment and lifestyle factors have the greatest impact on employee stress levels?**
 
----
 
 ### Data Overview
 - **Source:** Kaggle (synthetic dataset)
@@ -30,8 +28,6 @@ This project addresses the question:
 - Lifestyle factors (sleep quality, physical activity)  
 - Mental health and stress-related indicators  
 
----
-
 ### Data Preprocessing
 - Removed observations with missing values  
 - Dropped non-predictive identifier variables  
@@ -39,8 +35,6 @@ This project addresses the question:
 - Standardized numerical features  
 - Converted stress level from three classes (Low, Medium, High) to a binary outcome to improve model performance  
 - Evaluated correlations and determined PCA was not appropriate due to low feature redundancy  
-
----
 
 ### Methodology
 Multiple supervised classification models were evaluated across several modeling approaches, including:
@@ -52,8 +46,6 @@ Multiple supervised classification models were evaluated across several modeling
 
 Due to the evenly distributed nature of the original stress categories, several modeling strategies were tested. The final approach focused on binary classification between **Low** and **High** stress levels to maximize predictive signal.
 
----
-
 ### Model Selection & Performance
 - **Final Model:** k-NN (n = 49)
 - **Test Accuracy:** 55.54%
@@ -61,8 +53,6 @@ Due to the evenly distributed nature of the original stress categories, several 
 - Accuracy was prioritized over precision and recall due to the non-critical nature of misclassification in this context
 
 Permutation feature importance was applied to interpret model results.
-
----
 
 ### Key Findings
 The most influential predictors of employee stress were:
@@ -72,8 +62,6 @@ The most influential predictors of employee stress were:
 - Productivity stability and education level
 
 These findings suggest that stress is driven more by **structural and environmental factors** than short-term workload alone.
-
----
 
 ### Business Implications
 - Organizations should invest in mid-career and tenured employee support
