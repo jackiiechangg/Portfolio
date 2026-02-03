@@ -38,10 +38,17 @@ Healthcare organizations manage complex workloads across providers and departmen
 - SQL (data preparation)
 
 
-### Dashboard Preview
-*(Screenshots included below)*
+## Dashboard Overview
 
-![Overview](screenshots/overview.png)  
-![Utilization Trends](screenshots/trends.png)  
-![Provider Drilldown](screenshots/drilldown.png)
+### Landing Page
+<img src="healthcare_landingpage.png" width="800">
+
+### Page 1 – Patient Overview
+<img src="dashboard_page1.png" width="800">
+
+### Page 2 – LOS & Utilization
+<img src="dashboard_page2.png" width="800">
+
+### Page 3 – Provider Comparison
+<img src="dashboard_page3.png" width="800">
 
