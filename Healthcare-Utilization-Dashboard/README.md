@@ -4,9 +4,7 @@
 This project analyzes hospital utilization and provider workload patterns using encounter-level healthcare data. The goal is to support operational decision-making by providing clear visibility into patient volume, resource usage, and provider distribution across hospitals.
 
 ### Problem Statement
-Healthcare organizations manage complex workloads across providers and departments, making it difficult to quickly identify utilization trends, bottlenecks, and areas of strain. This dashboard addresses the question:
-
-**How can hospital workload and utilization patterns be monitored to support data-driven operational decisions?**
+Healthcare organizations manage complex workloads across providers and departments, making it difficult to quickly identify utilization trends, bottlenecks, and areas of strain. This dashboard addresses the question: **How can hospital workload and utilization patterns be monitored to support data-driven operational decisions?**
 
 
 ### Data & Metrics
@@ -43,12 +41,12 @@ Healthcare organizations manage complex workloads across providers and departmen
 ### Landing Page
 <img src="healthcare_landingpage.png" width="800">
 
-### Page 1 – Patient Overview
+### Page 1: Patient Overview
 <img src="dashboard_page1.png" width="800">
 
-### Page 2 – LOS & Utilization
+### Page 2: LOS & Utilization
 <img src="dashboard_page2.png" width="800">
 
-### Page 3 – Provider Comparison
+### Page 3: Provider Comparison
 <img src="dashboard_page3.png" width="800">
 
