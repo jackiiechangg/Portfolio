@@ -14,7 +14,6 @@ Customer retention is a key driver of sustainable growth, yet many organizations
 This project aims to answer one question:  
 **What customer behavior and operational factors have the greatest impact on churn rates?**
 
----
 
 ## 2. About the Data
 
@@ -38,8 +37,6 @@ The original dataset consisted of 10,000 observations with 32 features (full lis
 | Customer Support | Tickets, resolution time, CSAT, complaints |
 
 After preprocessing, the final dataset used for the project consisted of **7,955 observations with 32 features**.
-
----
 
 ## 3. Methodology
 
@@ -65,13 +62,9 @@ The logistic regression model achieved an accuracy of 89.6% and a ROC-AUC of 0.7
 - F1-score: 0.035  
 - ROC-AUC: 0.716  
 
----
-
 ### Random Forest
 
 After running the regression, I decided to run a random forest model to capture any potential nonlinear relationships and feature interactions that logistic regression might miss. The model achieved an accuracy of 89.8% and a ROC-AUC of 0.712, which is similar to the logistic regression model. While the Random Forest did not improve predictive performance, it confirms that the relationships between the predictors and churn are largely linear in the dataset.
-
----
 
 ## 5. Conclusion
 
