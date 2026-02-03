@@ -1,6 +1,6 @@
-# Jacqueline's Portfolio ⭐
+# Jacqueline Chang ⭐
 
-Welcome to my data science and analytics repo! I’m passionate about using data to help others understand their surrounding environment, and this repo contains a collection of my data science and data analytics projects showcasing my skills and experience across dashboards, machine learning, and visualization. Each project targets a different aspect of the analytics, from exploratory analysis and predictive modeling to insight communication. I designed and executed the Healthcare Dashboard and Predicting Customer Churn Factor projects individually, while Predicting Stress Levels was a group project with 4 other teammates. 
+Welcome to my data science and analytics portfolio repo! I’m passionate about using data to help others understand their surrounding environment, and this repo contains a collection of my data science and data analytics projects showcasing my skills and experience across dashboards, machine learning, and visualization. Each project targets a different aspect of the analytics, from exploratory analysis and predictive modeling to insight communication. I designed and executed the Healthcare Dashboard and Predicting Customer Churn Factor projects individually, while Predicting Stress Levels was a group project with 4 other teammates. 
 
 ## Projects
 
