@@ -7,17 +7,19 @@
 - Random Forest  
 - ROC-AUC and classification metrics
   
-## 1. Problem Statement
+## Project Overview 
 
-Customer retention is a key driver of sustainable growth, yet many organizations make churn-related decisions without clear insights into the factors driving customer attrition. This lack of visibility makes it difficult to identify which customer behaviors and operational signals should be prioritized for effective retention strategies. Given that acquiring new customers typically costs 5x more than retaining existing ones, understanding how to engage current customers is critical in any industry or organization.
+Customer retention is one of the most important metrics that determines an organization's longevity, yet companies rarely understand why customers leave. Without clear visibility into these factors, it'd difficult to know which type of customers to attract and what about the organization is critical to customer retention. Because bringing in new customers is far more expensive than keeping current ones, understanding churn drivers is an important analytics problem. 
 
-This project aims to answer one question:  
-**What customer behavior and operational factors have the greatest impact on churn rates?**
+This project aims to address the question: **What customer behavior and operational factors have the greatest impact on churn rates?**
 
 
-## 2. About the Data
+## Data & Metrics 
 
-The original dataset consisted of 10,000 observations with 32 features (full list included in python notebook), including a binary churn indicator (0 indicates retention / 1 indicates the customer churned) and a mix of behavioral, financial, satisfaction, and demographic metrics. The data is taken from Kaggle and is synthetic. The experiment’s target variable is churn.
+- The original dataset consisted of 10,000 observations with 32 features (full list included in python notebook), including a binary churn indicator (0 indicates retention / 1 indicates the customer churned)
+- Mix of behavioral, financial, satisfaction, and demographic metrics
+- Data is taken from Kaggle and is synthetic
+- Target variable is churn.
 
 ### Preprocessing steps:
 - Dropped observations with missing values  
@@ -38,7 +40,7 @@ The original dataset consisted of 10,000 observations with 32 features (full lis
 
 After preprocessing, the final dataset used for the project consisted of **7,955 observations with 32 features**.
 
-## 3. Methodology
+## Methodology
 
 ### Logistic Regression
 
@@ -51,7 +53,7 @@ Logistic regression was used as a baseline model given the binary target variabl
 | monthly_logins | Account activity | -0.38 |
 | payment_failures | Failed payments | 0.37 |
 
-The Logistic regression showed that churn is primarily driven by financial behavior and engagement. Payment failures increase churn risk, while higher satisfaction, longer tenure, and more monthly logins reduce it.
+The results indicate that customer retention is strongly influenced by engagement and financial interaction with the platform of the organization. Payment failures increase churn likelihood, suggesting friction in billing or transactions contribute to attrition, while higher satisfaction, longer tenure, and frequent usage signal stronger cutstomer attachment. Overall, behavioral indicators appear more predictive of churn than static attributes, emphasizing engagment and payment stability as key areas to monitor. 
 
 ### Model Performance:
 The logistic regression model achieved an accuracy of 89.6% and a ROC-AUC of 0.716, indicating the model's reasonable predictive power to distinguish between churned and retained customers.
@@ -64,8 +66,8 @@ The logistic regression model achieved an accuracy of 89.6% and a ROC-AUC of 0.7
 
 ### Random Forest
 
-After running the regression, I decided to run a random forest model to capture any potential nonlinear relationships and feature interactions that logistic regression might miss. The model achieved an accuracy of 89.8% and a ROC-AUC of 0.712, which is similar to the logistic regression model. While the Random Forest did not improve predictive performance, it confirms that the relationships between the predictors and churn are largely linear in the dataset.
+After running the regression, I decided to run a random forest model to capture any potential nonlinear relationships and feature interactions that logistic regression might miss. The model achieved an accuracy of 89.8% and a ROC-AUC of 0.712, which is similar to the logistic regression model. While the Random Forest did not improve predictive performance, it reaffirms that the relationships between the predictors and churn are largely linear in the dataset.
 
-## 5. Conclusion
+## Conclusion
 
 This analysis demonstrates that customer churn in this data is mainly influenced by financial behavior and engagement, with payment failures increasing churn risk and higher satisfaction, longer tenure, and more monthly logins reducing it. Logistic regression provided a clear, interpretable baseline, while Random Forest confirmed that nonlinear relationships did not substantially improve prediction, suggesting that the key drivers are largely linear.
