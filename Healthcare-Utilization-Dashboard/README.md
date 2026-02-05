@@ -1,7 +1,7 @@
 ## Healthcare Utilization & Provider Dashboard
 
 ### Project Overiew
-This project is an interactive dashboard created on Power BI that analyzes hospital utilization and provider workloard patterns, using encounter-level healthcare data. Each row in the dataset represents a single patient name, the dataset is very granular, allowing for a deeper and more nuances analysis from many perspectives. Healthcare organizations handle complex workloads across providers and departments, which can make it difficult to quickly identify utilization trends, and where pressure is building. 
+This project is an interactive dashboard created on Power BI that analyzes hospital utilization and provider workloard patterns, using encounter-level healthcare data. Each row in the dataset represents a single patient name, making the dataset is very granular and therefore allowing for a deeper and more nuances analysis from many perspectives. Healthcare organizations handle complex workloads across providers and departments, which can make it difficult to quickly identify utilization trends, and where pressure is building. 
 
 The goal of the project is to allow stakholders identify patterns in patient volume, length of stay, and provider workload, and explore where operational strain and inefficiencies may exist. Stakeholders include operations managers, hospital administrators, and medical directors.  
 
