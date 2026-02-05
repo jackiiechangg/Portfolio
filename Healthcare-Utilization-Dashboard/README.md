@@ -12,23 +12,25 @@ This dashboard addresses the question: **How can hospital workload and utilizati
 - Encounter-level healthcare data (one hospital visit is one observation) 
 - Key metrics include:
   - Admissions volume 
-  - Length of stay
+  - Length of stay (LOS)
   - Provider workload
   - Utilization patterns by facility and service type
 
 
 ### Methods
+- Data pre-processing
+-   Deleted duplicated rows, irrelavent columns, and ensured correct data type 
 - Built a multi-page **Power BI dashboard** with:
   - Interactive slicers and filters
   - Drill-through functionality for deeper analysis
-  - Custom **DAX measures** to summarize utilization and workload metrics (average length of stya, median length of stay, 90th percentile of stay)
+  - Custom **DAX measures** to summarize utilization and workload metrics (average length of stay, median length of stay, 90th percentile of stay)
 - Designed views to support both high-level monitoring and detailed operational review
 
 
-### Results & Insights
-- Enabled stakeholders to quickly assess hospital workload trends
-- Improved visibility into provider utilization and patient flow
-- Supported identification of high-demand areas and potential resource constraints
+### Results 
+- Found that Emergency and Urgent encounters make up to ~66% of admissions, signaling a consistently high-acuity patient mix 
+- Identified a gap between median LOS (~15 days) and 90th percentile LOS (~28 days), highlighting long-stay cases driving capactiy strain
+- Revealed variation in LOS, billing, and admission volume across hospitals and providers, suggesting differences in case mix and resource utilization
 
 
 ### Tools & Technologies
