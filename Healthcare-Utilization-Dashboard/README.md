@@ -1,5 +1,10 @@
 ## Healthcare Utilization & Provider Dashboard
 
+### Tools & Technologies
+- Power BI  
+- DAX  
+- SQL (data preparation)
+
 ### Project Overiew
 This project is an interactive dashboard created on Power BI that analyzes hospital utilization and provider workloard patterns, using encounter-level healthcare data. Each row in the dataset represents a single patient name, making the dataset is very granular and therefore allowing for a deeper and more nuances analysis from many perspectives. Healthcare organizations handle complex workloads across providers and departments, which can make it difficult to quickly identify utilization trends, and where pressure is building. 
 
@@ -31,12 +36,6 @@ This dashboard addresses the question: **How can hospital workload and utilizati
 - Found that Emergency and Urgent encounters make up to ~66% of admissions, signaling a consistently high-acuity patient mix 
 - Identified a gap between median LOS (~15 days) and 90th percentile LOS (~28 days), highlighting long-stay cases driving capactiy strain
 - Revealed variation in LOS, billing, and admission volume across hospitals and providers, suggesting differences in case mix and resource utilization
-
-
-### Tools & Technologies
-- Power BI  
-- DAX  
-- SQL (data preparation)
 
 
 ## Dashboard Overview
